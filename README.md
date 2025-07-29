@@ -112,6 +112,10 @@ Once deployed, access **Joplin** using:
 
   > **Tip:** Changing the email address requires going to the **Admin tab -> Email tab -> Confirm your new Joplin Server account email**
 
+- **Setup Synchronisation:** Be sure to setup synchronisation in the `Joplin App` (Mobile & Desktop)
+  
+  > **Note:** Use the `Joplin Server URL`, the `Joplin Server Email`, and the `Joplin Server Password` you just setup!
+
 ---
 
 ## 🙏 Acknowledgments
