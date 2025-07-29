@@ -1,8 +1,7 @@
 # 📘 Joplin Docker Compose Stack
 
 [![MIT License](https://img.shields.io/github/license/Vantasin/Joplin?style=flat-square)](LICENSE)
-[![Docker Compose](https://img.shields.io/badge/Docker-Compose-blue?logo=docker)](https://docs.docker.com/compose/)
-[![Docker](https://img.shields.io/badge/Docker-compose-2496ED?logo=docker&logoColor=white&style=flat-square)](https://www.docker.com/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-blue?logo=docker)](https://www.docker.com/)
 [![ZFS](https://img.shields.io/badge/ZFS-OpenZFS-blue?style=flat-square)](https://openzfs.org/)
 
 [![Joplin](https://img.shields.io/badge/Joplin-Note%20Server-blue?logo=joplin&logoColor=white)](https://joplinapp.org/)
