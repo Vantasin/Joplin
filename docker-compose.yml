@@ -24,7 +24,7 @@ services:
     db:
         image: postgres:16
         volumes:
-            - ${JOPLIN_DATA_VOLUME}/postgres:/var/lib/postgresql/data
+            - ${JOPLIN_DATA_VOLUME}/data/postgres:/var/lib/postgresql/data
         ports:
             - "5432:5432"
         restart: unless-stopped
