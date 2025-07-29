@@ -101,12 +101,16 @@ tank/
 Once deployed, access **Joplin** using:
 
 - **Web Interface:** Enter the URL that was set for `APP_BASE_URL`. Eg. `https://joplin.example.com` or `http://localhost:22300`.
+
   > **Default Email:** `admin@localhost`
+
   > **Default Password:** `admin`
+
 - **Initial Setup:** After logging in with the default email and password be sure to change the default email address and password.
-  > **Note:**
-  > Email address and password can be changed via the profile tab in the top right corner.
-  > Changing the email address requires going to the **Admin tab -> Email tab -> Confirm your new Joplin Server account email**
+
+  > **Note:** Email address and password can be changed via the profile tab in the top right corner.
+
+  > **Tip:** Changing the email address requires going to the **Admin tab -> Email tab -> Confirm your new Joplin Server account email**
 
 ---
 
