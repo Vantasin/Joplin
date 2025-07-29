@@ -106,9 +106,9 @@ Once deployed, access **Joplin** using:
 
   > **Default Password:** `admin`
 
-- **Initial Setup:** After logging in with the default email and password be sure to change the default email address and password.
+- **Initial Setup:** Be sure to change the default password!
 
-  > **Note:** Email address and password can be changed via the profile tab in the top right corner.
+  > **Note:** There should be a pop-up prompting you to change the default password.
 
   > **Tip:** Changing the email address requires going to the **Admin tab -> Email tab -> Confirm your new Joplin Server account email**
 
