@@ -78,7 +78,7 @@ tank/
    sudo chmod 600 .env
    ```
 
-   > **Note:** Be sure to update the `POSTGRES_PASSWORD`, `APP_BASE_URL`, and if necessary the `JOPLIN_DATA_VOLUME`.
+   > **Note:** Be sure to update the `POSTGRES_PASSWORD`, `APP_BASE_URL`, and if necessary the `JOPLIN_DATA_VOLUME`. If email notifications are desired be sure to update the Joplin mailer environment variables too.
 
    > **Note:** `APP_BASE_URL` is the base public URL where the service will be running.
    > If Joplin Server needs to be accessible over the internet, configure `APP_BASE_URL` as follows: `https://joplin.example.com`.
