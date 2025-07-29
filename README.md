@@ -91,7 +91,7 @@ tank/
 4. **Start joplin**
 
    ```bash
-   docker compose up -d
+   sudo docker compose up -d
    ```
 
 ---
