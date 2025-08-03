@@ -80,13 +80,15 @@ tank/
 
    > **Note:** Be sure to update the `POSTGRES_PASSWORD`, `APP_BASE_URL`, and if necessary the `JOPLIN_DATA_VOLUME`. If email notifications are desired be sure to update the Joplin mailer environment variables too.
 
-   > **Note:** `APP_BASE_URL` is the base public URL where the service will be running.
-   > If Joplin Server needs to be accessible over the internet, configure `APP_BASE_URL` as follows: `https://joplin.example.com`.
+   > **Note:** `APP_BASE_URL` is the base public URL where the service will be running. Eg. `https://joplin.example.com`.
    
-   > **Tip:** You can create the `APP_BASE_URL` using [Nginx Proxy Manager](https://github.com/Vantasin/Nginx-Proxy-Manager.git) as a reverse proxy for HTTPS certificates via Let's Encrypt.
-   
-   > **Optional:**  If Joplin Server does not need to be accessible over the internet, set the `APP_BASE_URL` to your server's hostname. 
-   > For Example: `http://localhost:22300` or replace `localhost` with your server’s IP address. The base URL can include the port.
+   > **Tip:** You must create the `APP_BASE_URL` using [Nginx Proxy Manager](https://github.com/Vantasin/Nginx-Proxy-Manager.git) as a reverse proxy for HTTPS certificates via Let's Encrypt.
+   >
+   > **Proxy Host:**
+   >  - **Domain Name:** `https://joplin.example.com`
+   >  - **Scheme:** `http`
+   >  - **Forward Hostname/IP:** `joplin-server`
+   >  - **Forward Port:** `22300`
    
 4. **Start joplin**
 
@@ -100,7 +102,7 @@ tank/
 
 Once deployed, access **Joplin** using:
 
-- **Web Interface:** Enter the URL that was set for `APP_BASE_URL`. Eg. `https://joplin.example.com` or `http://localhost:22300`.
+- **Web Interface:** Enter the URL that was set for `APP_BASE_URL`. Eg. `https://joplin.example.com`.
 
   > **Default Email:** `admin@localhost`
 
