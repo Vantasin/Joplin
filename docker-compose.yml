@@ -26,7 +26,7 @@ services:
         volumes:
             - ${JOPLIN_DATA_VOLUME}/postgres:/var/lib/postgresql/data
         networks:
-            - npm_proxy
+            - joplin_internal
         restart: unless-stopped
         environment:
             - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
@@ -39,6 +39,7 @@ services:
             - db
         networks:
           - npm_proxy
+          - joplin_internal
         restart: unless-stopped
         environment:
             - APP_PORT=22300
@@ -61,3 +62,5 @@ services:
 networks:
   npm_proxy:
     external: true
+  joplin_internal:
+    driver: bridge
