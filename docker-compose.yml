@@ -63,3 +63,4 @@ networks:
     external: true
   joplin_internal:
     driver: bridge
+    internal: true
